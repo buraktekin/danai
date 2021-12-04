@@ -58,7 +58,7 @@ function handleTickInit(tick) {
   var timeDuration = Tick.helper.duration(24, 'hours');
   // add 24 hours to get final deadline
   var t = new Date();
-  var deadline = new Date(t.setSeconds(t.getSeconds() + 5));
+  var deadline = new Date('December 05, 2021 00:00:00');
   // create counter
   var counter = Tick.count.down(deadline, { format: ['h', 'm', 's'] });
 
@@ -74,6 +74,8 @@ function handleTickInit(tick) {
     // hide counter, uncomment the next line
     var countdown = tick.root.style;
     tick.root.style.display = 'none';
+
+    document.getElementById("start").style.opacity = 1;
 
     let timer = setInterval(() => {
       filter_value = filter_value / 1.2;

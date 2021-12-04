@@ -1,8 +1,14 @@
 .tick {
    position: fixed !important;
-   top: 0;
+   top: 50%;
+   left: 50%;
    width: 100%;
-   font-size:1rem; white-space:nowrap; font-family:arial,sans-serif;
+   height: 100%;
+   font-size: 1rem;
+   white-space: nowrap;
+   font-family: arial,sans-serif;
+   transform: translate(-50%, -50%);
+   background: black;
 }
 
 .tick-flip,.tick-text-inline {

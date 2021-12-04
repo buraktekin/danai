@@ -18,6 +18,17 @@ body, html {
   position: relative;
 }
 
+button#start {
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  left: 47%;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000;
+  opacity: 0;
+}
+
 .svg-container {
   overflow-x: scroll;
   width: 100%;
