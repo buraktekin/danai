@@ -13,7 +13,8 @@
 }
 
 .tick-label {
-   margin-top:1em;font-size:.25em;
+   margin-top:0;
+   font-size:.25em;
 }
 
 .tick-char {
@@ -29,6 +30,10 @@
 }
 
 .tick-group {
+   align-items: center !important;
+   justify-content: center !important;
+   display: flex !important;
+   flex-direction: column;
    margin:0 .5em;text-align:center;
 }
 
@@ -58,4 +63,8 @@
 
 .tick-flip {
    border-radius:0.12em !important; 
+}
+
+.tick [data-layout~=horizontal][data-layout~=fit] {
+   height: 100vh !important;
 }
