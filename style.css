@@ -33,7 +33,6 @@ body, html {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 20px;
 }
 
 #item1{
