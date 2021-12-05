@@ -33,6 +33,7 @@ body, html {
   display: flex;
   flex-direction: column;
   position: relative;
+  top: 20px;
 }
 
 #item1{
@@ -42,8 +43,6 @@ body, html {
 
 #item2 {
   overflow: scroll hidden;
-  align-items: center;
-  justify-content: end;
 }
 
 button#start {
