@@ -6,7 +6,7 @@
 body, html {
   background-color: #363636;
   width: 100%;
-  height: 100%;
+  height: 100;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -42,6 +42,7 @@ body, html {
 
 #item2 {
   overflow: scroll hidden;
+  background-color: #363636;
 }
 
 button#start {
