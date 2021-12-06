@@ -4,11 +4,11 @@
 
 /*svg colors */
 body, html {
-  background-color: #363636;
   width: 100%;
   height: 100;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  background: url(https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);/*#363636*/
 }
 
 .container{
